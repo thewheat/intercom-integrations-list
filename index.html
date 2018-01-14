@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Unofficial List of Intercom Integrations</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body ng-app="myApp" class="container" >
+	<h1>Unofficial List of Intercom Integrations</h1>
+	<div ng-controller="listCtrl" ng-cloak="true">
+		<span ng-show="isLoading">Loading...</span>
+		<h4>Tag</h4>
+		<span ng-repeat="tag in uniqueTags" class="search" name="tag">
+				<label ng-show="tag"><input type="checkbox" ng-model="searchTagData[tag]" value="{{tag}}"> {{tag}}&nbsp;&nbsp;&nbsp;</label>
+		</span>
+
+		<input type="text" class="form-control" placeholder="Search" ng-model="searchText">
+
+		<h3 class="search"><span class="label label-default">Search results : {{matchedData.length}}</span></h3>
+			<div>
+				<div ng-repeat="item in filteredData() | orderBy: 'name'">
+					<h3>{{ item.name }}</h3>
+					<div>{{ item.description }}</div>
+					<div class="tags">
+						<span ng-repeat="tag in item.tags">
+							<span class="tag label label-default"> {{ tag }}</span>&nbsp; 
+						</span>
+					</div>
+					<ul ng-repeat="link in item.links">
+						<li class="link"> <a href="{{ link }}">{{link}}</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+
+
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/underscore/underscore-min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
