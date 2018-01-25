@@ -1018,5 +1018,27 @@
             "Android",
             "iOS"
         ]
+    },
+    {
+        "description": "Metrics for Intercom",
+        "links": [
+            "https://metrics.rasper.com/?tool=intercom"
+        ],
+        "name": "Rasper",
+        "tags": [
+            "3rd party/Community",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "Integrate the Intercom messenger widget into an electron application.",
+        "links": [
+            "https://github.com/getstation/electron-intercom-messenger"
+        ],
+        "name": "electron-intercom-messenger",
+        "tags": [
+            "3rd party/Community"
+        ]
     }
+
 ]
