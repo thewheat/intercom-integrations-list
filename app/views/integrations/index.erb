@@ -1,0 +1,44 @@
+<h1>Integrations</h1>
+
+<td><%= link_to 'New', new_integration_path %></td>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Tags</th>
+    <th></th>
+  </tr>
+ 
+  <% @integrations.each do |integration| %>
+    <tr>
+      <td><%= integration.name %></td>
+      <td><%= integration.description %></td>
+      <td><%= integration.tags %></td>
+      <td><%= link_to 'Show', integration_path(integration) %></td>
+      <td><%= link_to 'Edit', edit_integration_path(integration) %></td>
+      <td><%= link_to 'Destroy', integration_path(tag),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
+
+
+
+
+<h1>Unofficial List of Intercom Integrations</h1>
+
+<ul>
+	<li>Official Intercom integrations / guides from their integration list / integration docs</li>
+	</li>Got an integration to add? File an issue or make a pull request</li>
+</ul>
+
+
+<h2>Tag</h2>
+#   Official      3rd party/Community      iOS      Android      Cordova      API      Bulk      CSV      Clearbit      Conversation      Data      Github      Google Analytics     How To      Import      Jira      Library      Mobile      Notification      OAuth      Phone      Python      SDK      SMS/Text      Statistics/Reporting      Test App     Transcript      Twilio      UTM      Unsubscribe      Web      Webhooks    
+<input type="text" placeholder="Search">
+
+Search results : 6
+
+<h3 class="search"><span class="label label-default">Search results : {{matchedData.length}}</span></h3>
