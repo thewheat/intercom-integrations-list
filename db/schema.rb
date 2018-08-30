@@ -20,11 +20,11 @@ ActiveRecord::Schema.define(version: 2018_08_18_114846) do
   end
 
   create_table "taggings", force: :cascade do |t|
-    t.integer "post_id"
+    t.integer "integration_id"
     t.integer "tag_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["post_id"], name: "index_taggings_on_post_id"
+    t.index ["integration_id"], name: "index_taggings_on_integration_id"
     t.index ["tag_id"], name: "index_taggings_on_tag_id"
   end
 

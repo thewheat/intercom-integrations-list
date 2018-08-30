@@ -32,6 +32,10 @@ class IntegrationsController < ApplicationController
 	def update
 		get_integration_data
 		get_tags
+
+		if integration_params[:tag_ids].nil?
+			Tagging.where(:integration_id => params[:id]).delete_all
+		end
   		if @integration.update(integration_params)
 			redirect_to @integration
 		else
@@ -56,9 +60,7 @@ class IntegrationsController < ApplicationController
 	  @tags = Tag.all
 	end
 	
-	private
-
-		def integration_params
-	    params.require(:integration).permit(:name, :description)
-	  end	
+	private def integration_params
+		params.require(:integration).permit(:name, :description, :tag_ids => [])
+  	end	
 end

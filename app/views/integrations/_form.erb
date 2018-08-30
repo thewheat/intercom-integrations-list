@@ -1,3 +1,4 @@
+<%= @debug.inspect if @debug %>
 <%= form_with model: @integration, local: true do |form| %>
   <% if @integration.errors.any? %>
     <div id="error_explanation">
@@ -12,7 +13,6 @@
       </ul>
     </div>
   <% end %>
-
   <p>
     <%= form.label :name %><br>
     <%= form.text_field :name %>
@@ -22,7 +22,7 @@
     <%= form.label :description %><br>
     <%= form.text_area :description %>
   </p>
-	<%= render '/tags/tag_list' %> 
+	<%= render '/tags/tag_list', :integration => @integration, :form => form %> 
   <p>
     <%= form.submit %>
   </p>

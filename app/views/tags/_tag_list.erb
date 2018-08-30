@@ -1,8 +1,10 @@
 <ul>
+	
   <% @tags.each do |tag| %>
+  		<% id = "integration[tag_ids][#{tag.id}]" %>
       <li>
-        <%= check_box_tag 'tag_ids[]', tag.id -%>
-        <%= h tag.name -%>
+        	<%= form.check_box nil, {:id => id, :checked => integration.tag_ids.include?(tag.id), :name => "integration[tag_ids][]"}, tag.id, nil %>
+        	<%= form.label nil, tag.name, { :for => id} %>
       </li>
   <% end %>
 </ul>

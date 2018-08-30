@@ -12,8 +12,7 @@
 
 <p>
   <strong>Tags:</strong>
-  <%= @integration.tags.each{|tag|
-  } %>
+  <%= @integration.tags.map(&:name).join(", ") %>
 </p>
 
 <p>
