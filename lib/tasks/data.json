@@ -1,0 +1,1044 @@
+[
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-php"
+        ],
+        "name": "PHP SDK library",
+        "tags": [
+            "Official",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-java"
+        ],
+        "name": "Java SDK library",
+        "tags": [
+            "Official",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-ruby"
+        ],
+        "name": "Ruby SDK library",
+        "tags": [
+            "Official",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-node"
+        ],
+        "name": "Node SDK library",
+        "tags": [
+            "Official",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-go"
+        ],
+        "name": "Go SDK library",
+        "tags": [
+            "Official",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-elixir"
+        ],
+        "name": "Elixir SDK library",
+        "tags": [
+            "Official",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-dotnet"
+        ],
+        "name": "C#/.NET SDK library",
+        "tags": [
+            "Official",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-rails"
+        ],
+        "name": "Rails gem",
+        "tags": [
+            "Official",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-wordpress"
+        ],
+        "name": "Wordpress plugin",
+        "tags": [
+            "Official",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-android",
+            "https://developers.intercom.com/docs/android-installation"
+        ],
+        "name": "Android SDK",
+        "tags": [
+            "Official",
+            "SDK",
+            "Mobile",
+            "Android"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-ios",
+            "https://developers.intercom.com/docs/ios-installation"
+        ],
+        "name": "iOS SDK",
+        "tags": [
+            "Official",
+            "SDK",
+            "Mobile",
+            "iOS"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-cordova",
+            "https://developers.intercom.com/docs/cordova-phonegap-installation"
+        ],
+        "name": "Cordova SDK",
+        "tags": [
+            "Official",
+            "SDK",
+            "Mobile",
+            "Cordova",
+            "iOS",
+            "Android"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/install-on-your-product-or-site/quick-install/install-intercom-on-your-website-for-logged-out-visitors",
+            "https://docs.intercom.io/install-on-your-product-or-site/install-intercom-on-your-web-app",
+            "http://docs.intercom.io/installing-Intercom/integrating-intercom-in-one-page-app",
+            "https://docs.intercom.com/faqs-and-troubleshooting/your-users-and-leads-data-in-intercom/how-do-i-end-a-session",
+            "https://developers.intercom.com/docs/intercom-javascript"
+        ],
+        "name": "Javascript installation",
+        "tags": [
+            "Official",
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": " view Intercom data in Zendesk",
+        "links": [
+            "https://www.zendesk.com/apps/support/intercom/",
+            "https://docs.intercom.com/integrations/zendesk-integration"
+        ],
+        "name": "Intercom app in Zendesk",
+        "tags": [
+            "Official"
+        ]
+    },
+    {
+        "description": " send Intercom conversation Zendesk",
+        "links": [
+            "https://docs.intercom.com/integrations/zendesk-integration"
+        ],
+        "name": "Forward to Zendesk",
+        "tags": [
+            "Official",
+            "Conversation"
+        ]
+    },
+    {
+        "description": " import users, provides web messenger, saved leads and users via API, track events",
+        "links": [
+            "https://apps.shopify.com/intercom",
+            "https://docs.intercom.com/integrations/shopify-integration"
+        ],
+        "name": "Intercom app in Shopify",
+        "tags": [
+            "Official",
+            "Web",
+            "API",
+            "Import"
+        ]
+    },
+    {
+        "description": " see your Insights within Microsft Teams",
+        "links": [
+            "https://docs.intercom.com/integrations/microsoft-teams-integration"
+        ],
+        "name": "Microsoft Teams",
+        "tags": [
+            "Official"
+        ]
+    },
+    {
+        "description": " Attach User, Company, Conversations to cards",
+        "links": [
+            "https://docs.intercom.com/integrations/trello-integration"
+        ],
+        "name": "Trello",
+        "tags": [
+            "Official"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/integrations/import-your-mailchimp-contacts"
+        ],
+        "name": "Mailchimp import",
+        "tags": [
+            "Official",
+            "Import"
+        ]
+    },
+    {
+        "description": " import",
+        "links": [
+            "https://docs.intercom.com/integrations/import-your-mixpanel-contacts"
+        ],
+        "name": "Mixpanel",
+        "tags": [
+            "Official",
+            "Import"
+        ]
+    },
+    {
+        "description": " import and sync records. ",
+        "links": [
+            "https://docs.intercom.com/integrations/stripe-integration"
+        ],
+        "name": "Stripe",
+        "tags": [
+            "Official",
+            "Import"
+        ]
+    },
+    {
+        "description": " receive and reply to pages messages",
+        "links": [
+            "https://docs.intercom.com/integrations/facebook-integration"
+        ],
+        "name": "Facebook",
+        "tags": [
+            "Official",
+            "Conversation"
+        ]
+    },
+    {
+        "description": " receive and reply to direct messages",
+        "links": [
+            "https://docs.intercom.com/integrations/twitter-integration"
+        ],
+        "name": "Twitter",
+        "tags": [
+            "Official",
+            "Conversation"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/integrations/segment-integration"
+        ],
+        "name": "Segment integration",
+        "tags": [
+            "3rd party/Community",
+            "Library",
+            "Web",
+            "Mobile",
+            "API"
+        ]
+    },
+    {
+        "description": " connect Intercom with services in a code free way",
+        "links": [
+            "https://zapier.com/zapbook/intercom/",
+            "https://docs.intercom.com/integrations/zapier-integration"
+        ],
+        "name": "Zapier Integration",
+        "tags": [
+            "3rd party/Community",
+            "API",
+            "Webhooks"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/faqs-and-troubleshooting/how-do-i-unsubscribe-users/how-can-i-sync-unsubscribed-users-with-mailchimp"
+        ],
+        "name": "Mailchimp unsubscribe sync",
+        "tags": [
+            "Official",
+            "Unsubscribe"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/faqs-and-troubleshooting/how-do-i-unsubscribe-users/how-can-i-sync-unsubscribed-users-with-marketo"
+        ],
+        "name": "Marketo unsubscribe sync",
+        "tags": [
+            "Official",
+            "Unsubscribe"
+        ]
+    },
+    {
+        "description": " Create leads in and send convesations to Salesforce, sync Salesforce data to Intercom",
+        "links": [
+            "https://docs.intercom.com/integrations/integrate-with-salesforce"
+        ],
+        "name": "Salesforce integration",
+        "tags": [
+            "Official"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/integrations/slack-integration"
+        ],
+        "name": "Get Intercom notifications in Slack",
+        "tags": [
+            "Official",
+            "Notification"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/integrations/hipchat-integration"
+        ],
+        "name": "Get Intercom notifications in Hipchat",
+        "tags": [
+            "Official",
+            "Notification"
+        ]
+    },
+    {
+        "description": "Provide extra attributes to target visitors",
+        "links": [
+            "https://docs.intercom.com/integrations/integrate-with-clearbit-reveal"
+        ],
+        "name": "Clearbit",
+        "tags": [
+            "Official",
+            "Clearbit"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/integrations/github-integration"
+        ],
+        "name": "Github integration",
+        "tags": [
+            "Official",
+            "Github"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "http://intercom.com/integrations"
+        ],
+        "name": "List of official and partner integrations with Intercom",
+        "tags": [
+            "Official",
+            "3rd party/Community"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/jkeyes/python-intercom"
+        ],
+        "name": "Python library",
+        "tags": [
+            "3rd party/Community",
+            "Library",
+            "Python",
+            "SDK",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/gdi2290/angular-intercom"
+        ],
+        "name": "Angular library",
+        "tags": [
+            "3rd party/Community",
+            "Library",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/nhagen/react-intercom"
+        ],
+        "name": "React library",
+        "tags": [
+            "3rd party/Community",
+            "Library",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/tinycreative/react-native-intercom"
+        ],
+        "name": "React Native library",
+        "tags": [
+            "3rd party/Community",
+            "Library",
+            "Mobile"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/versolearning/meteor-intercom"
+        ],
+        "name": "Meteor library",
+        "tags": [
+            "3rd party/Community",
+            "Library",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/install-on-your-product-or-site/other-ways-to-get-started/install-intercom-on-your-squarespace-site"
+        ],
+        "name": "SquareSpace",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://gist.github.com/thewheat/956aea06573143344ea9"
+        ],
+        "name": "Wix",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://gist.github.com/thewheat/8ad5c352f1ff17803fa7b0761883075f"
+        ],
+        "name": "Weebly",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://gist.github.com/thewheat/8beececb82a662cd4a14"
+        ],
+        "name": "Teachable",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://gist.github.com/edkellena/ec3ef32d7fe71fab5536"
+        ],
+        "name": "Google Tag Manger (GTM)",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://gist.github.com/thewheat/feff2c7593a0cdceb884d7b1c4c9973d"
+        ],
+        "name": "Clickfunnels",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/WebleIT/JIntercom",
+            "https://gist.github.com/thewheat/e5672529c4453a2f014168cb5a2c8447"
+        ],
+        "name": "Joomla",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://www.drupal.org/project/intercom/git-instructions",
+            "https://gist.github.com/thewheat/c7306fa2d1790eb3e03128ff3fd67115"
+        ],
+        "name": "Drupal",
+        "tags": [
+            "How To",
+            "Web"
+        ]
+    },
+    {
+        "description": "Tracking conversions",
+        "links": [
+            "https://docs.intercom.com/configure-intercom-for-your-product-or-site/customize-intercom-to-be-about-your-users/track-conversions-and-clicks-with-utm-parameters"
+        ],
+        "name": "Google Analytics / UTM Parameters",
+        "tags": [
+            "How To",
+            "Web",
+            "Google Analytics",
+            "UTM"
+        ]
+    },
+    {
+        "description": "Tracking Google Anlaytics conversions using a webhook and server side code",
+        "links": [
+            "https://github.com/thewheat/intercom-google-analytics-conversion"
+        ],
+        "name": "Google Analytics Conversion",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "Google Analytics"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/integrations/facebook-lead-ads-integration"
+        ],
+        "name": "Facebook lead ads",
+        "tags": [
+            "How To",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://docs.intercom.com/integrations/does-intercom-integrate-with-hubspot"
+        ],
+        "name": "Integration with Hubspot",
+        "tags": [
+            "How To",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/thewheat/intercom-postman-collection"
+        ],
+        "name": "Postman collection for making API calls",
+        "tags": [
+            "How To",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://gist.github.com/thewheat/7342c76ade46e7322c3e"
+        ],
+        "name": "user_hash/hmac code for identity verifcation",
+        "tags": [
+            "How To"
+        ]
+    },
+    {
+        "description": "Testing the Intercom API in several languages",
+        "links": [
+            "https://github.com/thewheat/intercom-testing-api"
+        ],
+        "name": "Testing Intercom API",
+        "tags": [
+            "How To",
+            "API"
+        ]
+    },
+    {
+        "description": "Sample forms in Intercom e.g. contact form",
+        "links": [
+            "https://github.com/thewheat/intercom-forms"
+        ],
+        "name": "Intercom Forms",
+        "tags": [
+            "How To",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://gist.github.com/kmossco/3b447919607051f86c1dbddfab250cee"
+        ],
+        "name": "Extract lead / user infomation to CSV",
+        "tags": [
+            "How To",
+            "API",
+            "Data",
+            "CSV"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/thewheat/intercom-webhooks"
+        ],
+        "name": "Sample webhook processing code in several languages",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://developerblog.intercom.com/vigilante-how-to-use-intercoms-api-to-build-a-superhero-for-your-team-4cad3f16089e"
+        ],
+        "name": "Detect duplicate converations and add notes",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API"
+        ]
+    },
+    {
+        "description": "Intercom webhook to display a custom office hours",
+        "links": [
+            "https://github.com/thewheat/intercom-out-of-office"
+        ],
+        "name": "Out of office auto responder",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API"
+        ]
+    },
+    {
+        "description": "Intercom webhook to detect spam and reassign/close conversations",
+        "links": [
+            "https://github.com/thewheat/intercom-webhook-detect-spam"
+        ],
+        "name": "Detect Spam",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API"
+        ]
+    },
+    {
+        "description": "Intercom webhook to customise away mode reassignment to custom team/admin instead of Unassigned",
+        "links": [
+            "https://github.com/thewheat/intercom-webhook-reassign-away-mode"
+        ],
+        "name": "Customise Away Mode Reassignment",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API"
+        ]
+    },
+    {
+        "description": "Reassign conversations started from Educate article pages",
+        "links": [
+            "https://github.com/thewheat/intercom-webhook-reassign-help-center"
+        ],
+        "name": "Reassign Educate article conversations",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://engineering.intercom.com/intercom-twilio-sms/"
+        ],
+        "name": "Send and receive SMS text messages",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API",
+            "SMS/Text",
+            "Twilio"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://developerblog.intercom.com/how-i-built-an-intercom-jira-integration-6aecbd4eb227"
+        ],
+        "name": "Jira integration",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API",
+            "Jira"
+        ]
+    },
+    {
+        "description": "An admin tool that provides ways to modify records, bulk reassign/close conversations, export conversation transcripts, bulk unsubscribe/resubscribe",
+        "links": [
+            "https://github.com/thewheat/intercom-admin-tool"
+        ],
+        "name": "Intercom Admin Tool",
+        "tags": [
+            "3rd party/Community",
+            "API",
+            "Data",
+            "Conversation",
+            "Transcript",
+            "Unsubscribe",
+            "Bulk"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://developers.intercom.com/blog/summarising-conversation-tags-using-the-intercom-api"
+        ],
+        "name": "Extract conversation tags from Intercom conversation",
+        "tags": [
+            "How To",
+            "Conversation",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/thewheat/intercom-google-analytics-conversion"
+        ],
+        "name": "Track Google Analytic Events / Conversion on creating a conversation",
+        "tags": [
+            "How To",
+            "Webhooks",
+            "API",
+            "Google Analytics",
+            "3rd party/Community"
+        ]
+    },
+    {
+        "description": "Opensource Tool for Intercom Conversation statistics",
+        "links": [
+            "https://engineering.privy.com/intercom-conversation-stats-an-open-source-tool/"
+        ],
+        "name": "Intercom Conversation Stats",
+        "tags": [
+            "3rd party/Community",
+            "Conversation",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://statbot.io/"
+        ],
+        "name": "Statbot",
+        "tags": [
+            "3rd party/Community",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://addcharts.com/"
+        ],
+        "name": "Add Charts",
+        "tags": [
+            "3rd party/Community",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://nomnom.it/intercom/"
+        ],
+        "name": "Nom Nom",
+        "tags": [
+            "3rd party/Community",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://datahero.com/connectors/intercom/"
+        ],
+        "name": "Data Hero",
+        "tags": [
+            "3rd party/Community",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://toky.co/en/integrations/intercom"
+        ],
+        "name": "Toky",
+        "tags": [
+            "3rd party/Community",
+            "Phone"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://aircall.io/call-center-software-integrations/intercom/"
+        ],
+        "name": "Aircall",
+        "tags": [
+            "3rd party/Community",
+            "Phone"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://www.talkdesk.com/integrations/intercom/"
+        ],
+        "name": "Talkdesk",
+        "tags": [
+            "3rd party/Community",
+            "Phone"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/thewheat/Intercom-Test-App-for-Android"
+        ],
+        "name": "Test Android app",
+        "tags": [
+            "3rd party/Community",
+            "Test App",
+            "Mobile",
+            "Android"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/thewheat/Intercom-Test-App-for-Cordova"
+        ],
+        "name": "Test Cordova app",
+        "tags": [
+            "3rd party/Community",
+            "Test App",
+            "Mobile",
+            "Cordova"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/thewheat/Intercom-Test-App-for-iOS"
+        ],
+        "name": "Test iOS app",
+        "tags": [
+            "3rd party/Community",
+            "Test App",
+            "Mobile",
+            "iOS"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/thewheat/intercom-testing-js-api"
+        ],
+        "name": "Test Javascript API web integration",
+        "tags": [
+            "3rd party/Community",
+            "Test App",
+            "Web"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/choran/intercom-oauth-signup"
+        ],
+        "name": "Sample OAuth app",
+        "tags": [
+            "Test App",
+            "API",
+            "OAuth",
+            "Official"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-ios/tree/master/Examples"
+        ],
+        "name": "iOS Sample App",
+        "tags": [
+            "Official",
+            "Test App",
+            "Mobile",
+            "iOS"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-android/tree/master/samples/"
+        ],
+        "name": "Android Sample App",
+        "tags": [
+            "Official",
+            "Test App",
+            "Mobile",
+            "Android"
+        ]
+    },
+    {
+        "description": "",
+        "links": [
+            "https://github.com/intercom/intercom-cordova/tree/master/Example"
+        ],
+        "name": "Cordova / Phonegap Sample App",
+        "tags": [
+            "Official",
+            "Test App",
+            "Mobile",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "description": "Unofficial test app illustrating different options and configurations",
+        "links": [
+            "https://github.com/thewheat/Intercom-Test-App-for-iOS"
+        ],
+        "name": "iOS Sample App",
+        "tags": [
+            "3rd party/Community",
+            "Test App",
+            "Mobile",
+            "iOS"
+        ]
+    },
+    {
+        "description": "Unofficial test app illustrating different options and configurations",
+        "links": [
+            "https://github.com/thewheat/Intercom-Test-App-for-Android"
+        ],
+        "name": "Android Sample App",
+        "tags": [
+            "3rd party/Community",
+            "Test App",
+            "Mobile",
+            "Android"
+        ]
+    },
+    {
+        "description": "Unofficial test app illustrating different options and configurations",
+        "links": [
+            "https://github.com/thewheat/Intercom-Test-App-for-Cordova"
+        ],
+        "name": "Cordova / Phonegap Sample App",
+        "tags": [
+            "3rd party/Community",
+            "Test App",
+            "Mobile",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "description": "Metrics for Intercom",
+        "links": [
+            "https://metrics.rasper.com/?tool=intercom"
+        ],
+        "name": "Rasper",
+        "tags": [
+            "3rd party/Community",
+            "Statistics/Reporting"
+        ]
+    },
+    {
+        "description": "Integrate the Intercom messenger widget into an electron application.",
+        "links": [
+            "https://github.com/getstation/electron-intercom-messenger"
+        ],
+        "name": "electron-intercom-messenger",
+        "tags": [
+            "3rd party/Community"
+        ]
+    }
+
+]
