@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>IntercomIntegrationsList</title>
+    <title>Unofficial List of Intercom Integrations</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,17 @@
   </head>
 
   <body>
+    <h1>Unofficial List of Intercom Integrations</h1>
+    <h3>Documenting guides, how-to's, apps that </h3>
+    <ul>
+      <li>See latest apps from Intercom and 3rd parties in the <a href="https://www.intercom.com/app-store">Intercom App Store</a></li>
+    </ul>
+    Nav
+    <ul>
+      <li><%= link_to 'Integration', integrations_path %></li>
+      <li><%= link_to 'Tags', tags_path %></li>
+    </ul>
     <%= yield %>
+
   </body>
 </html>

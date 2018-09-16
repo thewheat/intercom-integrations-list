@@ -1,8 +1,9 @@
 class IntegrationsController < ApplicationController
 
 	def index
-	    @integrations = Integration.all
-
+		@integrations = Integration.all
+		@integration = Integration.new
+		get_tags
 	end
 
 	def show
@@ -61,6 +62,6 @@ class IntegrationsController < ApplicationController
 	end
 	
 	private def integration_params
-		params.require(:integration).permit(:name, :description, :tag_ids => [])
+		params.require(:integration).permit(:name, :description, :links, :tag_ids => [])
   	end	
 end

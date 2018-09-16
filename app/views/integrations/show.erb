@@ -17,7 +17,14 @@
 
 <p>
   <strong>Links:</strong>
-  <%= @integration %>
+  <ul>
+  <% @integration.links.each_line.map{|line| line.strip}.each{|url|
+    next if url.empty?
+    url = "http://#{url}" if !url.starts_with?("http://","https://")
+    %><li><%= link_to url, url %></li><%
+  } if @integration.links
+  %>
+  </ul>
 </p>
 
 

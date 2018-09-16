@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_18_114846) do
+ActiveRecord::Schema.define(version: 2018_09_16_135647) do
 
   create_table "integrations", force: :cascade do |t|
     t.string "name"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "links"
   end
 
   create_table "taggings", force: :cascade do |t|
