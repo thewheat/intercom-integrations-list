@@ -1,7 +1,7 @@
 require 'json'
  
 namespace :import do
-  desc "TODO"
+  desc "Import data from JSON file"
   task datajson: :environment do
 	integrations = JSON.parse(File.read('./lib/tasks/data.json'))
 	integrations.each{|integration_json|

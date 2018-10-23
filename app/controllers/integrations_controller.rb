@@ -3,65 +3,32 @@ class IntegrationsController < ApplicationController
 	def index
 		@integrations = Integration.all
 		@integration = Integration.new
-		get_tags
-	end
+		@search = search_params
 
-	def show
-		get_integration_data
-	end
+		puts @search.inspect
 
-	def new
 		get_tags
-		@integration = Integration.new
-	end
-
-	def create
-		get_tags
-		@integration = Integration.new(integration_params)
-		if @integration.save
-			redirect_to @integration
-		else
-			render 'new'
+		@integrations = nil
+		if @search[:text] then
+			@integrations = Integration.where('integrations.name LIKE ? OR integrations.description LIKE ?', "%#{@search[:text]}%", "%#{@search[:text]}%")
 		end
-	end
-
-	def edit
-		get_integration_data
-		get_tags
-	end
-
-	def update
-		get_integration_data
-		get_tags
-
-		if integration_params[:tag_ids].nil?
-			Tagging.where(:integration_id => params[:id]).delete_all
+		if @search[:tag_ids] && @search[:tag_ids].count > 0 then
+			if @integrations.nil? 
+				@integrations = Integration.includes(:tags).where(:tags => {:id => @search[:tag_ids]})
+			else
+				@integrations = @integrations.includes(:tags).where(:tags => {:id => @search[:tag_ids]})
+			end
 		end
-  		if @integration.update(integration_params)
-			redirect_to @integration
-		else
-			render 'edit'
-		end
-	end
-
-	def delete
-	end
-
-	def destroy
-		get_integration_data
-		@integration.destroy
-  		redirect_to integrations_path
-	end
+		@integrations = Integration.all if @integrations.nil?
 
 
-	private def get_integration_data
-	  @integration = Integration.find(params[:id])
 	end
+
 	private def get_tags
 	  @tags = Tag.all
 	end
 	
-	private def integration_params
-		params.require(:integration).permit(:name, :description, :links, :tag_ids => [])
+	private def search_params
+		params.require(:search).permit(:text, :tag_ids => [])
   	end	
 end

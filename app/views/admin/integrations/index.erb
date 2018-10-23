@@ -1,0 +1,38 @@
+<h1>Integrations</h1>
+
+<td><%= link_to 'New', new_admin_integration_path %></td>
+
+
+<h3 class="search"><span class="label label-default">Search results : <%= @integrations.size %></span></h3>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Tags</th>
+    <th></th>
+  </tr>
+ 
+  <% @integrations.each do |integration| %>
+    <tr>
+      <td><%= integration.name %></td>
+      <td><%= integration.description %></td>
+      <td><%= integration.tags.map{|t| t.name }.join(", ") if integration.tags %></td>
+      <td>
+        <ul>
+        <% integration.links.each_line.map{|line| line.strip}.each{|url|
+          next if url.empty?
+          url = "http://#{url}" if !url.starts_with?("http://","https://")
+          %><li><%= link_to url, url %></li><%
+        } if integration.links
+        %>
+        </ul>
+      </td>
+      <td><%= link_to 'Show', admin_integration_path(integration) %></td>
+      <td><%= link_to 'Edit', edit_admin_integration_path(integration) %></td>
+      <td><%= link_to 'Destroy', admin_integration_path(integration),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>

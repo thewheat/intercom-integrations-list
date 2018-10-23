@@ -1,6 +1,6 @@
 <h1>Tags</h1>
 
-<td><%= link_to 'New', new_tag_path %></td>
+<td><%= link_to 'New', new_admin_tag_path %></td>
 
 <table>
   <tr>
@@ -13,9 +13,9 @@
     <tr>
       <td><%= tag.name %></td>
       <td><%= tag.description %></td>
-      <td><%= link_to 'Show', tag_path(tag) %></td>
-      <td><%= link_to 'Edit', edit_tag_path(tag) %></td>
-      <td><%= link_to 'Destroy', tag_path(tag),
+      <td><%= link_to 'Show', admin_tag_path(tag) %></td>
+      <td><%= link_to 'Edit', edit_admin_tag_path(tag) %></td>
+      <td><%= link_to 'Destroy', admin_tag_path(tag),
               method: :delete,
               data: { confirm: 'Are you sure?' } %></td>
     </tr>

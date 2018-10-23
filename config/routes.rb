@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :admin do
+    resources :integrations
+    resources :tags
+  end
+	
   resources :integrations
-  resources :tags
-  resources :admin
+
   root 'integrations#index'
 end
 

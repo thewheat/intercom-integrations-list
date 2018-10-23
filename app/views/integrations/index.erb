@@ -1,38 +1,41 @@
-<h1>Integrations</h1>
+<div class="search_container">  
+<%= form_tag("/integrations", method: "get") do %>
+  <%= text_field_tag 'search[text]', @search[:text], placeholder: 'Enter search term...'%>
 
-<td><%= link_to 'New', new_integration_path %></td>
+  <% @tags.each do |tag| %>
+      <% id = "search[tag_ids][#{tag.id}]" %>
+      <li>
+          <%= check_box_tag "search[tag_ids][]", tag.id, @integration.tag_ids.include?(tag.id), {:id => id} %>
 
-
-<h3 class="search"><span class="label label-default">Search results : <%= @integrations.size %></span></h3>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Tags</th>
-    <th></th>
-  </tr>
- 
-  <% @integrations.each do |integration| %>
-    <tr>
-      <td><%= integration.name %></td>
-      <td><%= integration.description %></td>
-      <td><%= integration.tags.map{|t| t.name }.join(", ") if integration.tags %></td>
-      <td>
-        <ul>
-        <% integration.links.each_line.map{|line| line.strip}.each{|url|
-          next if url.empty?
-          url = "http://#{url}" if !url.starts_with?("http://","https://")
-          %><li><%= link_to url, url %></li><%
-        } if integration.links
-        %>
-        </ul>
-      </td>
-      <td><%= link_to 'Show', integration_path(integration) %></td>
-      <td><%= link_to 'Edit', edit_integration_path(integration) %></td>
-      <td><%= link_to 'Destroy', integration_path(integration),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
-    </tr>
+          <%= label_tag nil, tag.name, { :for => id} %>
+      </li>
   <% end %>
-</table>
+  <%= submit_tag("Search") %>
+<% end %>
+</div>
+<div class="search_results">
+  <h3 class="count_container">Search results: 
+    <span class="count"><%= @integrations.size %></span>
+  </h3>
+<% @integrations.each do |integration| %>
+  <div class="row">
+    <div class="tags">
+        <% if integration.tags  %>
+        <% integration.tags.each{|t| %>
+          <span class="tag"><%= t.name %></span>
+        <% } %>
+        <% end %>
+    </div>
+    <h2 class="title"><%= integration.name %></h2>
+    <h3 class="description"><%= integration.description %></h3>
+    <ul>
+    <% integration.links.each_line.map{|line| line.strip}.each{|url|
+      next if url.empty?
+      url = "http://#{url}" if !url.starts_with?("http://","https://")
+      %><li><%= link_to url, url %></li><%
+    } if integration.links
+    %>
+    </ul>
+  </div>
+<% end %>
+</div>

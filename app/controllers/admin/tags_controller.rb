@@ -1,4 +1,4 @@
-class TagsController < ApplicationController
+class Admin::TagsController < ApplicationController
 
 	def index
 	    @tags = Tag.all
@@ -16,7 +16,7 @@ class TagsController < ApplicationController
 	def create
 		@tag = Tag.new(tag_params)
 		if @tag.save
-			redirect_to @tag
+			redirect_to [:admin, @tag]
 		else
 			render 'new'
 		end
@@ -29,7 +29,7 @@ class TagsController < ApplicationController
 	def update
 		get_tag_data
   		if @tag.update(tag_params)
-			redirect_to @tag
+			redirect_to [:admin, @tag]
 		else
 			render 'edit'
 		end
@@ -41,7 +41,7 @@ class TagsController < ApplicationController
 	def destroy
 		get_tag_data
 		@tag.destroy
-  		redirect_to tags_path
+  		redirect_to admin_tags_path
 	end
 
 	

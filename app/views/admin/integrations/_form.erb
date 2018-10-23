@@ -1,5 +1,5 @@
 <%= @debug.inspect if @debug %>
-<%= form_with model: @integration, local: true do |form| %>
+<%= form_with model: [:admin, @integration], local: true do |form| %>
   <% if @integration.errors.any? %>
     <div id="error_explanation">
       <h2>
@@ -30,7 +30,7 @@
 
   <p>
     <%= form.label :tags %><br>
-	<%= render '/tags/tag_list', :integration => @integration, :form => form %> 
+	<%= render '/admin/tags/tag_list', :integration => @integration, :form => form %> 
   </p>
   <p>
     <%= form.submit %>
